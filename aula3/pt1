@@ -1,0 +1,82 @@
+# Lista 
+  - C++     - vector 
+  - Java    - List, ArrayList, LinkedList
+  - C#      - List, Array List
+  - Python  - lista[]
+---------------------------------------------------------------
+# Inserir  
+  - C++     - pushLock() 
+  - Java    - add()
+  - C#      - Add()
+  - Python  - append()
+
+---------------------------------------------------------------
+# Remover pela ppsição ou pelo elemento 
+  - C++     - pop_back() ou erase() 
+  - Java    - remove()
+  - C#      - Remove()
+  - Python  - remove()
+
+---------------------------------------------------------------
+# Localizar 
+  vetor = [5,9,7,2,5] (se tiver elemento repetido, ele vai achar o primeiro valor e parar)
+  TAM = 5
+  - C 
+  numero = 5
+  for(int = 0; i < 5; i++){
+    if(numer[i] == vetor[i]){
+      encontrado = true;
+      break; 
+  }
+}
+  if(encontrado){
+    printf("numero encontrado");
+  } else {
+    printf("numero nao encontrado");
+  }
+
+
+- Python 
+vetor = [5,9,7,2,5]
+numero = 5
+if numero in vetor:
+  print("numero encontrado")
+else:
+  print("numero nao encontrado")
+
+
+- Java 
+vetor = [5,9,7,2,5]
+numero = 5
+if (vetor.contains(numero)){
+  System.out.println("numero encontrado");
+  } else {
+  System.out.println("numero nao encontrado"); 
+  }
+
+
+- C#
+vetor = [5,9,7,2,5]
+numero = 5
+if (vetor.Contains(numero)){
+  Console.write("numero encontrado");
+  } else {
+  Console.write("numero nao encontrado"); 
+  }
+
+---------------------------------------------------------------
+#Verificar tamanho da estrutura 
+  - C++     - size() 
+  - Java    - size()
+  - C#      - Count()
+  - Python  - len()
+
+---------------------------------------------------------------
+# Se esta vazia
+  - se o tamanho for igual a 0 
+  - empty() ou isEmpty()
+
+---------------------------------------------------------------
+
+
+
